@@ -16,7 +16,7 @@ Install RabbitMQ in windows :
 
   * I have created two Spring boot applications
   * One will act as a message producer and one will act as a message consumer
-  * In both applications, we can configure the RocketMq Queue, Exchange and Bind these queue and exchange in MQConfig class.
+  * In both applications, we can configure the RabbitMq Queue, Exchange and Bind these queue and exchange in MQConfig class.
   * Consumer Application consumes the messege throgh @RabbitLestener with the help of queue name
   * If Consumer Application server will down, the messages are going into the queue, we can see the messages in our RabbitMQ Dashboard and If Consumer Application server will up then consumer application will consumes the messages in the queue.
   * I will show you entire workflow of our apllication through below diagram.
